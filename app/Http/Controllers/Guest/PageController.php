@@ -12,6 +12,16 @@ class PageController extends Controller
 
         $movies = Movie::orderBy('title','asc')->get();
 
+        foreach($movies as $movie){
+            $movie->date = $this->getNewDate($movie->date);
+        }
+
+
         return view("guest.index", compact('movies'));
+    }
+
+    public function getNewDate($date){
+        $newDate = date_format( date_create($date), 'M d Y' );
+        return $newDate;
     }
 }
