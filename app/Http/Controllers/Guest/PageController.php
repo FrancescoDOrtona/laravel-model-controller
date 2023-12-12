@@ -21,7 +21,7 @@ class PageController extends Controller
     }
 
     public function getNewDate($date){
-        $newDate = date_format( date_create($date), 'M d Y' );
+        $newDate = date_format( date_create($date), 'd M Y' );
         return $newDate;
     }
 }
