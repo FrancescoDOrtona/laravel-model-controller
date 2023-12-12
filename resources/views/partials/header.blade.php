@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center g-2">
             <div class="col">
-                <h1>Movies</h1>
+                <h1 class="text-light fw-bold">Movies</h1>
             </div>
             <div class="col">
                 <nav class="nav justify-content-center fw-bold ">

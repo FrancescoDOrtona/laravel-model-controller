@@ -4,3 +4,14 @@
 body{
     background-color: #303030;
 }
+
+ul, ol, menu{
+    list-style: none;
+    color: currentColor;
+    padding: 0;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
