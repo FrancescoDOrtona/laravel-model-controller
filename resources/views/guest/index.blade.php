@@ -19,9 +19,9 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="bg-light py-4 mb-4">
+<section class="py-4 mb-4">
     <div class="container">
-        <div class="d-grid" style="grid-template-columns: repeat(5,1fr)">
+        <div class="card-structure">
            @forelse ($movies as $movie)
                <div class="card">
                 <div class="card-header">{{ $movie->title }}</div>
