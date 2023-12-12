@@ -55,10 +55,10 @@
     <footer>
         <div class="container">
             <div
-                class="row-cols-4 justify-content-center align-items-center g-2">
-                <div class="col">About us</div>
-                <div class="col">Contacts</div>
-                <div class="col">Copyright</div>
+                class="row align-items-center g-2">
+                <div class="col-2">About us</div>
+                <div class="col-2">Contacts</div>
+                <div class="col-2">Copyright</div>
             </div>            
         </div>
     </footer>
